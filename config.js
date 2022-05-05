@@ -1,7 +1,7 @@
 module.exports = {
     debug: true,
     browser: {
-        visible: true,
+        visible: false,
         useragent: '',
         timeout: 0,
         proxy: '',

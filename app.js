@@ -1,3 +1,2 @@
-const facebookAutomation = require('./src/index')
-
-facebookAutomation(debug = true)
+// Work in progress
+// Run .src/index.js for testing
