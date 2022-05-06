@@ -32,7 +32,15 @@ const user = await facebook.getUser()
 Returns a list of a user's friends (containing user ID, username and profile URL).
 
 ```javascript
-const user = await facebook.getFriends()
+const friends = await facebook.getFriends()
+```
+
+### Get user's photos
+
+Returns a list of a user's photos.
+
+```javascript
+const photos = await facebook.getPhotos()
 ```
 
 ### Close
@@ -45,10 +53,6 @@ await facebook.close()
 
 ### More is coming...
 
-- User's photos
-- User's posts
-- ...
-
 ## Configuration
 
 Open config.js file for configuration.
@@ -60,7 +64,6 @@ Turn debugging mode on/off
 ```
 debug: true/false
 ```
-
 ### Browser settings
 
 Set browser visibility on/off
@@ -95,7 +98,6 @@ In this example, the browser was set to use no sandboxes and ignore certificate 
 ```
 options: ['--no-sandbox', '--disable-setuid-sandbox', '--ignore-certificate-errors']
 ```
-
 ### Facebook login data
 
 Set username and password of an existing Facebook account
