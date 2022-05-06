@@ -8,5 +8,6 @@ module.exports = {
     login: 'login',
     myaccount: 'me',
     friends: 'friends',
-    photos: 'photos'
+    photos: 'photos',
+    videos: 'videos'
 }

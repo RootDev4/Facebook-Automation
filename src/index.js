@@ -14,8 +14,11 @@ const main = async () => {
     // Get a list of user's friends (requires login)
     const friends = await facebook.getFriends()
 
+    //
+    const photos = await facebook.getPhotos()
+
     // Output
-    console.log(user, friends)
+    console.log(user, friends, photos)
 
     // Close facebook
     await facebook.close()
